@@ -1,0 +1,64 @@
+<!--header-->
+<!--subheader-->
+<!--unordered list for game rules-->
+<!--image tag-->
+<!--table tag to create game board-->
+<!--create a button to restart game-->
+<!--footer tag-->
+<!--link for footer with attribute to open a new window-->
+<!--change title for browser tab-->
+<!--add icon for browser tab-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--header-->
+    <h1>Christmas Hunt</h1>
+
+    <!--subheader-->
+    <h2>We Want Presents!</h2>
+
+    <!--unordered list for game rules-->
+    <ul>
+      <li>Click on each box.</li>
+      <li>If you get the present, you win.</li>
+      <li>If you get the coal, you lose.</li>
+      <li>If you get the X, keep playing.</li>
+    </ul>
+
+    <!--image tag:  <img ""/>-->
+
+
+    <!--table tag to create game board-->
+    <div id="gameboard">
+    <table border="3">
+      <tr>
+        <td id=0 onclick="theFunction(0)"> ? </td>
+        <td id=1 onclick="theFunction(1)"> ? </td>
+        <td id=2 onclick="theFunction(2)"> ? </td>
+      </tr>
+      <tr>
+        <td id=3 onclick="theFunction(3)"> ? </td>
+        <td id=4 onclick="theFunction(4)"> ? </td>
+        <td id=5 onclick="theFunction(5)"> ? </td>
+      </tr>
+      <tr>
+        <td id=6 onclick="theFunction(6)"> ? </td>
+        <td id=7 onclick="theFunction(7)"> ? </td>
+        <td id=8 onclick="theFunction(8)"> ? </td>
+      </tr>
+    </table>
+  </div>
+  <p id="outcome">  </p>
+
+    <!--create a button to restart game-->
+    <button>Restart</button>
+    <script type="text/javascript" src="christmas.js"></script>
+  </body>
+</html>
